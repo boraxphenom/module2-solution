@@ -4,42 +4,56 @@
   font-family: Tahoma, Geneva, sans-serif;
 }
 
+h1{
+  text-align: center;
+}
+
+.row{
+  width: 100%;
+}
+
+.section {
+  background: #A1A4A2;
+  border: 2px black solid;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  padding-left: 5%;
+}
+
+p{
+  text-align: left;
+  float: left;
+  margin-top: 0px;
+  padding: 6px;
+}
+
 h2 {
-  margin-bottom: 30px;
   float: right;
   border: 2px black solid;
   border-right: none;
   border-top: none;
-  padding: 5px;
-  box-sizing: border-box;
+  padding: 3px;
+  width: 150px;
+  height: 35px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  background: lightpink;
-  text-align: center; 
-  width: 30%;
-}
-
-.box {
-  border: 2px black solid;
-  margin: 18px;
-  background: lightgray;
-  display: inline-block;
-  width: 22%;
+  text-align: center;
 }
 
 .chicken{
-  background-color: #DAF7A6;
+  background-color: #C86F65;
+  color: #FFFFFF;
 }
 
 .beef{
-  background-color: #FF5733;
+  background-color: #9A1708;
+  color: #FFFFFF;
 }
 
 .sushi{
-  background-color: #33FF7D;
-}
-
+  background-color: #CAEED4;
 }
 
 /********** Desktop size devices only **********/
@@ -47,6 +61,7 @@ h2 {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
+
   .col-lg-1 {
     width: 8.33%;
   }
